@@ -305,6 +305,73 @@
 		DE90FD2627FCC8570084CC79 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD0B27FCC8570084CC79 /* Pet.swift */; };
 		DE90FD2727FCC8570084CC79 /* WarmBlooded.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD0C27FCC8570084CC79 /* WarmBlooded.swift */; };
 		DE90FD2927FCE7120084CC79 /* SelectionCondition+Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD2827FCE7120084CC79 /* SelectionCondition+Evaluation.swift */; };
+		DE90FD7427FCFE7B0084CC79 /* HeroNameWithFragmentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD2C27FCFE7B0084CC79 /* HeroNameWithFragmentQuery.swift */; };
+		DE90FD7527FCFE7B0084CC79 /* HeroDetailsInlineConditionalInclusionQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD2D27FCFE7B0084CC79 /* HeroDetailsInlineConditionalInclusionQuery.swift */; };
+		DE90FD7627FCFE7B0084CC79 /* HeroAppearsInWithFragmentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD2E27FCFE7B0084CC79 /* HeroAppearsInWithFragmentQuery.swift */; };
+		DE90FD7727FCFE7B0084CC79 /* HeroNameQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD2F27FCFE7B0084CC79 /* HeroNameQuery.swift */; };
+		DE90FD7827FCFE7B0084CC79 /* CreateReviewForEpisodeMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3027FCFE7B0084CC79 /* CreateReviewForEpisodeMutation.swift */; };
+		DE90FD7927FCFE7B0084CC79 /* HumanQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3127FCFE7B0084CC79 /* HumanQuery.swift */; };
+		DE90FD7A27FCFE7B0084CC79 /* HeroNameConditionalBothSeparateQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3227FCFE7B0084CC79 /* HeroNameConditionalBothSeparateQuery.swift */; };
+		DE90FD7B27FCFE7B0084CC79 /* CharacterNameAndAppearsIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3327FCFE7B0084CC79 /* CharacterNameAndAppearsIn.swift */; };
+		DE90FD7C27FCFE7B0084CC79 /* HeroDetailsFragmentConditionalInclusionQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3427FCFE7B0084CC79 /* HeroDetailsFragmentConditionalInclusionQuery.swift */; };
+		DE90FD7D27FCFE7B0084CC79 /* SameHeroTwiceQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3527FCFE7B0084CC79 /* SameHeroTwiceQuery.swift */; };
+		DE90FD7E27FCFE7B0084CC79 /* CreateAwesomeReviewMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3627FCFE7B0084CC79 /* CreateAwesomeReviewMutation.swift */; };
+		DE90FD7F27FCFE7B0084CC79 /* HeroNameWithFragmentAndIDQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3727FCFE7B0084CC79 /* HeroNameWithFragmentAndIDQuery.swift */; };
+		DE90FD8027FCFE7B0084CC79 /* DroidDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3827FCFE7B0084CC79 /* DroidDetails.swift */; };
+		DE90FD8127FCFE7B0084CC79 /* DroidName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3927FCFE7B0084CC79 /* DroidName.swift */; };
+		DE90FD8227FCFE7B0084CC79 /* StarshipCoordinatesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3A27FCFE7B0084CC79 /* StarshipCoordinatesQuery.swift */; };
+		DE90FD8327FCFE7B0084CC79 /* HeroNameConditionalBothQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3B27FCFE7B0084CC79 /* HeroNameConditionalBothQuery.swift */; };
+		DE90FD8427FCFE7B0084CC79 /* CharacterNameWithInlineFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3C27FCFE7B0084CC79 /* CharacterNameWithInlineFragment.swift */; };
+		DE90FD8527FCFE7B0084CC79 /* DroidPrimaryFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3D27FCFE7B0084CC79 /* DroidPrimaryFunction.swift */; };
+		DE90FD8627FCFE7B0084CC79 /* ReviewAddedSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3E27FCFE7B0084CC79 /* ReviewAddedSubscription.swift */; };
+		DE90FD8727FCFE7B0084CC79 /* HeroFriendsOfFriendsNamesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD3F27FCFE7B0084CC79 /* HeroFriendsOfFriendsNamesQuery.swift */; };
+		DE90FD8827FCFE7B0084CC79 /* HeroDetailsQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4027FCFE7B0084CC79 /* HeroDetailsQuery.swift */; };
+		DE90FD8927FCFE7B0084CC79 /* HeroParentTypeDependentFieldQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4127FCFE7B0084CC79 /* HeroParentTypeDependentFieldQuery.swift */; };
+		DE90FD8A27FCFE7B0084CC79 /* HeroAndFriendsNamesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4227FCFE7B0084CC79 /* HeroAndFriendsNamesQuery.swift */; };
+		DE90FD8B27FCFE7B0084CC79 /* CharacterNameWithNestedAppearsInFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4327FCFE7B0084CC79 /* CharacterNameWithNestedAppearsInFragment.swift */; };
+		DE90FD8C27FCFE7B0084CC79 /* HeroNameAndAppearsInWithFragmentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4427FCFE7B0084CC79 /* HeroNameAndAppearsInWithFragmentQuery.swift */; };
+		DE90FD8D27FCFE7B0084CC79 /* CharacterNameAndDroidPrimaryFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4527FCFE7B0084CC79 /* CharacterNameAndDroidPrimaryFunction.swift */; };
+		DE90FD8E27FCFE7B0084CC79 /* CharacterNameAndDroidAppearsIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4627FCFE7B0084CC79 /* CharacterNameAndDroidAppearsIn.swift */; };
+		DE90FD8F27FCFE7B0084CC79 /* HeroFriendsDetailsConditionalInclusionQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4727FCFE7B0084CC79 /* HeroFriendsDetailsConditionalInclusionQuery.swift */; };
+		DE90FD9027FCFE7B0084CC79 /* HumanHeightWithVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4827FCFE7B0084CC79 /* HumanHeightWithVariable.swift */; };
+		DE90FD9127FCFE7B0084CC79 /* HeroTypeDependentAliasedFieldQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4927FCFE7B0084CC79 /* HeroTypeDependentAliasedFieldQuery.swift */; };
+		DE90FD9227FCFE7B0084CC79 /* HeroNameConditionalInclusionQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4A27FCFE7B0084CC79 /* HeroNameConditionalInclusionQuery.swift */; };
+		DE90FD9327FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentTwiceQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4B27FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentTwiceQuery.swift */; };
+		DE90FD9427FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4C27FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentQuery.swift */; };
+		DE90FD9527FCFE7B0084CC79 /* HeroFriendsDetailsUnconditionalAndConditionalInclusionQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4D27FCFE7B0084CC79 /* HeroFriendsDetailsUnconditionalAndConditionalInclusionQuery.swift */; };
+		DE90FD9627FCFE7B0084CC79 /* HeroNameConditionalExclusionQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4E27FCFE7B0084CC79 /* HeroNameConditionalExclusionQuery.swift */; };
+		DE90FD9727FCFE7B0084CC79 /* HeroNameTypeSpecificConditionalInclusionQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD4F27FCFE7B0084CC79 /* HeroNameTypeSpecificConditionalInclusionQuery.swift */; };
+		DE90FD9827FCFE7B0084CC79 /* HeroAppearsInQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5027FCFE7B0084CC79 /* HeroAppearsInQuery.swift */; };
+		DE90FD9927FCFE7B0084CC79 /* HeroNameAndAppearsInQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5127FCFE7B0084CC79 /* HeroNameAndAppearsInQuery.swift */; };
+		DE90FD9A27FCFE7B0084CC79 /* StarshipQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5227FCFE7B0084CC79 /* StarshipQuery.swift */; };
+		DE90FD9B27FCFE7B0084CC79 /* HeroDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5327FCFE7B0084CC79 /* HeroDetails.swift */; };
+		DE90FD9C27FCFE7B0084CC79 /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5427FCFE7B0084CC79 /* SearchQuery.swift */; };
+		DE90FD9D27FCFE7B0084CC79 /* DroidDetailsWithFragmentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5527FCFE7B0084CC79 /* DroidDetailsWithFragmentQuery.swift */; };
+		DE90FD9E27FCFE7B0084CC79 /* TwoHeroesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5627FCFE7B0084CC79 /* TwoHeroesQuery.swift */; };
+		DE90FD9F27FCFE7B0084CC79 /* HeroAndFriendsIDsQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5727FCFE7B0084CC79 /* HeroAndFriendsIDsQuery.swift */; };
+		DE90FDA027FCFE7B0084CC79 /* FriendsNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5827FCFE7B0084CC79 /* FriendsNames.swift */; };
+		DE90FDA127FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDsQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5927FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDsQuery.swift */; };
+		DE90FDA227FCFE7B0084CC79 /* CharacterAppearsIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5A27FCFE7B0084CC79 /* CharacterAppearsIn.swift */; };
+		DE90FDA327FCFE7B0084CC79 /* CreateReviewWithNullFieldMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5B27FCFE7B0084CC79 /* CreateReviewWithNullFieldMutation.swift */; };
+		DE90FDA427FCFE7B0084CC79 /* CharacterNameAndAppearsInWithNestedFragments.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5C27FCFE7B0084CC79 /* CharacterNameAndAppearsInWithNestedFragments.swift */; };
+		DE90FDA527FCFE7B0084CC79 /* CharacterName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5D27FCFE7B0084CC79 /* CharacterName.swift */; };
+		DE90FDA627FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDForParentOnlyQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5E27FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDForParentOnlyQuery.swift */; };
+		DE90FDA727FCFE7B0084CC79 /* DroidNameAndPrimaryFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD5F27FCFE7B0084CC79 /* DroidNameAndPrimaryFunction.swift */; };
+		DE90FDA827FCFE7B0084CC79 /* HeroDetailsWithFragmentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6027FCFE7B0084CC79 /* HeroDetailsWithFragmentQuery.swift */; };
+		DE90FDA927FCFE7B0084CC79 /* HeroNameWithIDQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6127FCFE7B0084CC79 /* HeroNameWithIDQuery.swift */; };
+		DE90FDAA27FCFE7B0084CC79 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6427FCFE7B0084CC79 /* SearchResult.swift */; };
+		DE90FDAB27FCFE7B0084CC79 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6627FCFE7B0084CC79 /* Episode.swift */; };
+		DE90FDAC27FCFE7B0084CC79 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6827FCFE7B0084CC79 /* Query.swift */; };
+		DE90FDAD27FCFE7B0084CC79 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6927FCFE7B0084CC79 /* Review.swift */; };
+		DE90FDAE27FCFE7B0084CC79 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6A27FCFE7B0084CC79 /* Human.swift */; };
+		DE90FDAF27FCFE7B0084CC79 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6B27FCFE7B0084CC79 /* Subscription.swift */; };
+		DE90FDB027FCFE7B0084CC79 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6C27FCFE7B0084CC79 /* Starship.swift */; };
+		DE90FDB127FCFE7B0084CC79 /* Mutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6D27FCFE7B0084CC79 /* Mutation.swift */; };
+		DE90FDB227FCFE7B0084CC79 /* Droid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6E27FCFE7B0084CC79 /* Droid.swift */; };
+		DE90FDB327FCFE7B0084CC79 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD6F27FCFE7B0084CC79 /* Schema.swift */; };
+		DE90FDB427FCFE7B0084CC79 /* ReviewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD7127FCFE7B0084CC79 /* ReviewInput.swift */; };
+		DE90FDB527FCFE7B0084CC79 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FD7327FCFE7B0084CC79 /* Character.swift */; };
+		DE90FDB827FCFEE00084CC79 /* ColorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90FDB727FCFEE00084CC79 /* ColorInput.swift */; };
 		DE9C04AC26EAAE4400EC35E7 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4B91F1D2A6F8D0046A641 /* JSON.swift */; };
 		DE9C04AD26EAAE5400EC35E7 /* JSONStandardTypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F27D4631D40379500715680 /* JSONStandardTypeConversions.swift */; };
 		DE9C04AF26EAAEE800EC35E7 /* CacheReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C04AE26EAAEE800EC35E7 /* CacheReference.swift */; };
@@ -1074,6 +1141,73 @@
 		DE90FD0B27FCC8570084CC79 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		DE90FD0C27FCC8570084CC79 /* WarmBlooded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarmBlooded.swift; sourceTree = "<group>"; };
 		DE90FD2827FCE7120084CC79 /* SelectionCondition+Evaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectionCondition+Evaluation.swift"; sourceTree = "<group>"; };
+		DE90FD2C27FCFE7B0084CC79 /* HeroNameWithFragmentQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameWithFragmentQuery.swift; sourceTree = "<group>"; };
+		DE90FD2D27FCFE7B0084CC79 /* HeroDetailsInlineConditionalInclusionQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailsInlineConditionalInclusionQuery.swift; sourceTree = "<group>"; };
+		DE90FD2E27FCFE7B0084CC79 /* HeroAppearsInWithFragmentQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAppearsInWithFragmentQuery.swift; sourceTree = "<group>"; };
+		DE90FD2F27FCFE7B0084CC79 /* HeroNameQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameQuery.swift; sourceTree = "<group>"; };
+		DE90FD3027FCFE7B0084CC79 /* CreateReviewForEpisodeMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateReviewForEpisodeMutation.swift; sourceTree = "<group>"; };
+		DE90FD3127FCFE7B0084CC79 /* HumanQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanQuery.swift; sourceTree = "<group>"; };
+		DE90FD3227FCFE7B0084CC79 /* HeroNameConditionalBothSeparateQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameConditionalBothSeparateQuery.swift; sourceTree = "<group>"; };
+		DE90FD3327FCFE7B0084CC79 /* CharacterNameAndAppearsIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterNameAndAppearsIn.swift; sourceTree = "<group>"; };
+		DE90FD3427FCFE7B0084CC79 /* HeroDetailsFragmentConditionalInclusionQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailsFragmentConditionalInclusionQuery.swift; sourceTree = "<group>"; };
+		DE90FD3527FCFE7B0084CC79 /* SameHeroTwiceQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameHeroTwiceQuery.swift; sourceTree = "<group>"; };
+		DE90FD3627FCFE7B0084CC79 /* CreateAwesomeReviewMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAwesomeReviewMutation.swift; sourceTree = "<group>"; };
+		DE90FD3727FCFE7B0084CC79 /* HeroNameWithFragmentAndIDQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameWithFragmentAndIDQuery.swift; sourceTree = "<group>"; };
+		DE90FD3827FCFE7B0084CC79 /* DroidDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroidDetails.swift; sourceTree = "<group>"; };
+		DE90FD3927FCFE7B0084CC79 /* DroidName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroidName.swift; sourceTree = "<group>"; };
+		DE90FD3A27FCFE7B0084CC79 /* StarshipCoordinatesQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipCoordinatesQuery.swift; sourceTree = "<group>"; };
+		DE90FD3B27FCFE7B0084CC79 /* HeroNameConditionalBothQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameConditionalBothQuery.swift; sourceTree = "<group>"; };
+		DE90FD3C27FCFE7B0084CC79 /* CharacterNameWithInlineFragment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterNameWithInlineFragment.swift; sourceTree = "<group>"; };
+		DE90FD3D27FCFE7B0084CC79 /* DroidPrimaryFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroidPrimaryFunction.swift; sourceTree = "<group>"; };
+		DE90FD3E27FCFE7B0084CC79 /* ReviewAddedSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewAddedSubscription.swift; sourceTree = "<group>"; };
+		DE90FD3F27FCFE7B0084CC79 /* HeroFriendsOfFriendsNamesQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroFriendsOfFriendsNamesQuery.swift; sourceTree = "<group>"; };
+		DE90FD4027FCFE7B0084CC79 /* HeroDetailsQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailsQuery.swift; sourceTree = "<group>"; };
+		DE90FD4127FCFE7B0084CC79 /* HeroParentTypeDependentFieldQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroParentTypeDependentFieldQuery.swift; sourceTree = "<group>"; };
+		DE90FD4227FCFE7B0084CC79 /* HeroAndFriendsNamesQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAndFriendsNamesQuery.swift; sourceTree = "<group>"; };
+		DE90FD4327FCFE7B0084CC79 /* CharacterNameWithNestedAppearsInFragment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterNameWithNestedAppearsInFragment.swift; sourceTree = "<group>"; };
+		DE90FD4427FCFE7B0084CC79 /* HeroNameAndAppearsInWithFragmentQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameAndAppearsInWithFragmentQuery.swift; sourceTree = "<group>"; };
+		DE90FD4527FCFE7B0084CC79 /* CharacterNameAndDroidPrimaryFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterNameAndDroidPrimaryFunction.swift; sourceTree = "<group>"; };
+		DE90FD4627FCFE7B0084CC79 /* CharacterNameAndDroidAppearsIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterNameAndDroidAppearsIn.swift; sourceTree = "<group>"; };
+		DE90FD4727FCFE7B0084CC79 /* HeroFriendsDetailsConditionalInclusionQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroFriendsDetailsConditionalInclusionQuery.swift; sourceTree = "<group>"; };
+		DE90FD4827FCFE7B0084CC79 /* HumanHeightWithVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanHeightWithVariable.swift; sourceTree = "<group>"; };
+		DE90FD4927FCFE7B0084CC79 /* HeroTypeDependentAliasedFieldQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTypeDependentAliasedFieldQuery.swift; sourceTree = "<group>"; };
+		DE90FD4A27FCFE7B0084CC79 /* HeroNameConditionalInclusionQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameConditionalInclusionQuery.swift; sourceTree = "<group>"; };
+		DE90FD4B27FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentTwiceQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAndFriendsNamesWithFragmentTwiceQuery.swift; sourceTree = "<group>"; };
+		DE90FD4C27FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAndFriendsNamesWithFragmentQuery.swift; sourceTree = "<group>"; };
+		DE90FD4D27FCFE7B0084CC79 /* HeroFriendsDetailsUnconditionalAndConditionalInclusionQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroFriendsDetailsUnconditionalAndConditionalInclusionQuery.swift; sourceTree = "<group>"; };
+		DE90FD4E27FCFE7B0084CC79 /* HeroNameConditionalExclusionQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameConditionalExclusionQuery.swift; sourceTree = "<group>"; };
+		DE90FD4F27FCFE7B0084CC79 /* HeroNameTypeSpecificConditionalInclusionQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameTypeSpecificConditionalInclusionQuery.swift; sourceTree = "<group>"; };
+		DE90FD5027FCFE7B0084CC79 /* HeroAppearsInQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAppearsInQuery.swift; sourceTree = "<group>"; };
+		DE90FD5127FCFE7B0084CC79 /* HeroNameAndAppearsInQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameAndAppearsInQuery.swift; sourceTree = "<group>"; };
+		DE90FD5227FCFE7B0084CC79 /* StarshipQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipQuery.swift; sourceTree = "<group>"; };
+		DE90FD5327FCFE7B0084CC79 /* HeroDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetails.swift; sourceTree = "<group>"; };
+		DE90FD5427FCFE7B0084CC79 /* SearchQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchQuery.swift; sourceTree = "<group>"; };
+		DE90FD5527FCFE7B0084CC79 /* DroidDetailsWithFragmentQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroidDetailsWithFragmentQuery.swift; sourceTree = "<group>"; };
+		DE90FD5627FCFE7B0084CC79 /* TwoHeroesQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoHeroesQuery.swift; sourceTree = "<group>"; };
+		DE90FD5727FCFE7B0084CC79 /* HeroAndFriendsIDsQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAndFriendsIDsQuery.swift; sourceTree = "<group>"; };
+		DE90FD5827FCFE7B0084CC79 /* FriendsNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsNames.swift; sourceTree = "<group>"; };
+		DE90FD5927FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDsQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAndFriendsNamesWithIDsQuery.swift; sourceTree = "<group>"; };
+		DE90FD5A27FCFE7B0084CC79 /* CharacterAppearsIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterAppearsIn.swift; sourceTree = "<group>"; };
+		DE90FD5B27FCFE7B0084CC79 /* CreateReviewWithNullFieldMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateReviewWithNullFieldMutation.swift; sourceTree = "<group>"; };
+		DE90FD5C27FCFE7B0084CC79 /* CharacterNameAndAppearsInWithNestedFragments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterNameAndAppearsInWithNestedFragments.swift; sourceTree = "<group>"; };
+		DE90FD5D27FCFE7B0084CC79 /* CharacterName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterName.swift; sourceTree = "<group>"; };
+		DE90FD5E27FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDForParentOnlyQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAndFriendsNamesWithIDForParentOnlyQuery.swift; sourceTree = "<group>"; };
+		DE90FD5F27FCFE7B0084CC79 /* DroidNameAndPrimaryFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroidNameAndPrimaryFunction.swift; sourceTree = "<group>"; };
+		DE90FD6027FCFE7B0084CC79 /* HeroDetailsWithFragmentQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailsWithFragmentQuery.swift; sourceTree = "<group>"; };
+		DE90FD6127FCFE7B0084CC79 /* HeroNameWithIDQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroNameWithIDQuery.swift; sourceTree = "<group>"; };
+		DE90FD6427FCFE7B0084CC79 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		DE90FD6627FCFE7B0084CC79 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		DE90FD6827FCFE7B0084CC79 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		DE90FD6927FCFE7B0084CC79 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		DE90FD6A27FCFE7B0084CC79 /* Human.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		DE90FD6B27FCFE7B0084CC79 /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		DE90FD6C27FCFE7B0084CC79 /* Starship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		DE90FD6D27FCFE7B0084CC79 /* Mutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutation.swift; sourceTree = "<group>"; };
+		DE90FD6E27FCFE7B0084CC79 /* Droid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Droid.swift; sourceTree = "<group>"; };
+		DE90FD6F27FCFE7B0084CC79 /* Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schema.swift; sourceTree = "<group>"; };
+		DE90FD7127FCFE7B0084CC79 /* ReviewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewInput.swift; sourceTree = "<group>"; };
+		DE90FD7327FCFE7B0084CC79 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		DE90FDB727FCFEE00084CC79 /* ColorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInput.swift; sourceTree = "<group>"; };
 		DE9C04AE26EAAEE800EC35E7 /* CacheReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheReference.swift; sourceTree = "<group>"; };
 		DE9C04B026EAAFF900EC35E7 /* JSONDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingError.swift; sourceTree = "<group>"; };
 		DEA34AF6260E821F00F95F86 /* Apollo-Target-AnimalKingdomAPI.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apollo-Target-AnimalKingdomAPI.xcconfig"; sourceTree = "<group>"; };
@@ -1688,6 +1822,8 @@
 			children = (
 				DE90FD2A27FCFB6E0084CC79 /* LegacyGenerated */,
 				9BCF0CF123FC9F060031D2A2 /* StarWarsAPI.h */,
+				DE90FD2B27FCFE7B0084CC79 /* Operations */,
+				DE90FD6227FCFE7B0084CC79 /* Schema */,
 				9B20614F2591B3860020D1E0 /* graphql */,
 				9BCF0CFF23FC9F060031D2A2 /* Info.plist */,
 			);
@@ -2377,6 +2513,135 @@
 				DE2FCF4626E92EAB0057EA67 /* APIv1.swift */,
 			);
 			path = LegacyGenerated;
+			sourceTree = "<group>";
+		};
+		DE90FD2B27FCFE7B0084CC79 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				DE90FD2C27FCFE7B0084CC79 /* HeroNameWithFragmentQuery.swift */,
+				DE90FD2D27FCFE7B0084CC79 /* HeroDetailsInlineConditionalInclusionQuery.swift */,
+				DE90FD2E27FCFE7B0084CC79 /* HeroAppearsInWithFragmentQuery.swift */,
+				DE90FD2F27FCFE7B0084CC79 /* HeroNameQuery.swift */,
+				DE90FD3027FCFE7B0084CC79 /* CreateReviewForEpisodeMutation.swift */,
+				DE90FD3127FCFE7B0084CC79 /* HumanQuery.swift */,
+				DE90FD3227FCFE7B0084CC79 /* HeroNameConditionalBothSeparateQuery.swift */,
+				DE90FD3327FCFE7B0084CC79 /* CharacterNameAndAppearsIn.swift */,
+				DE90FD3427FCFE7B0084CC79 /* HeroDetailsFragmentConditionalInclusionQuery.swift */,
+				DE90FD3527FCFE7B0084CC79 /* SameHeroTwiceQuery.swift */,
+				DE90FD3627FCFE7B0084CC79 /* CreateAwesomeReviewMutation.swift */,
+				DE90FD3727FCFE7B0084CC79 /* HeroNameWithFragmentAndIDQuery.swift */,
+				DE90FD3827FCFE7B0084CC79 /* DroidDetails.swift */,
+				DE90FD3927FCFE7B0084CC79 /* DroidName.swift */,
+				DE90FD3A27FCFE7B0084CC79 /* StarshipCoordinatesQuery.swift */,
+				DE90FD3B27FCFE7B0084CC79 /* HeroNameConditionalBothQuery.swift */,
+				DE90FD3C27FCFE7B0084CC79 /* CharacterNameWithInlineFragment.swift */,
+				DE90FD3D27FCFE7B0084CC79 /* DroidPrimaryFunction.swift */,
+				DE90FD3E27FCFE7B0084CC79 /* ReviewAddedSubscription.swift */,
+				DE90FD3F27FCFE7B0084CC79 /* HeroFriendsOfFriendsNamesQuery.swift */,
+				DE90FD4027FCFE7B0084CC79 /* HeroDetailsQuery.swift */,
+				DE90FD4127FCFE7B0084CC79 /* HeroParentTypeDependentFieldQuery.swift */,
+				DE90FD4227FCFE7B0084CC79 /* HeroAndFriendsNamesQuery.swift */,
+				DE90FD4327FCFE7B0084CC79 /* CharacterNameWithNestedAppearsInFragment.swift */,
+				DE90FD4427FCFE7B0084CC79 /* HeroNameAndAppearsInWithFragmentQuery.swift */,
+				DE90FD4527FCFE7B0084CC79 /* CharacterNameAndDroidPrimaryFunction.swift */,
+				DE90FD4627FCFE7B0084CC79 /* CharacterNameAndDroidAppearsIn.swift */,
+				DE90FD4727FCFE7B0084CC79 /* HeroFriendsDetailsConditionalInclusionQuery.swift */,
+				DE90FD4827FCFE7B0084CC79 /* HumanHeightWithVariable.swift */,
+				DE90FD4927FCFE7B0084CC79 /* HeroTypeDependentAliasedFieldQuery.swift */,
+				DE90FD4A27FCFE7B0084CC79 /* HeroNameConditionalInclusionQuery.swift */,
+				DE90FD4B27FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentTwiceQuery.swift */,
+				DE90FD4C27FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentQuery.swift */,
+				DE90FD4D27FCFE7B0084CC79 /* HeroFriendsDetailsUnconditionalAndConditionalInclusionQuery.swift */,
+				DE90FD4E27FCFE7B0084CC79 /* HeroNameConditionalExclusionQuery.swift */,
+				DE90FD4F27FCFE7B0084CC79 /* HeroNameTypeSpecificConditionalInclusionQuery.swift */,
+				DE90FD5027FCFE7B0084CC79 /* HeroAppearsInQuery.swift */,
+				DE90FD5127FCFE7B0084CC79 /* HeroNameAndAppearsInQuery.swift */,
+				DE90FD5227FCFE7B0084CC79 /* StarshipQuery.swift */,
+				DE90FD5327FCFE7B0084CC79 /* HeroDetails.swift */,
+				DE90FD5427FCFE7B0084CC79 /* SearchQuery.swift */,
+				DE90FD5527FCFE7B0084CC79 /* DroidDetailsWithFragmentQuery.swift */,
+				DE90FD5627FCFE7B0084CC79 /* TwoHeroesQuery.swift */,
+				DE90FD5727FCFE7B0084CC79 /* HeroAndFriendsIDsQuery.swift */,
+				DE90FD5827FCFE7B0084CC79 /* FriendsNames.swift */,
+				DE90FD5927FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDsQuery.swift */,
+				DE90FD5A27FCFE7B0084CC79 /* CharacterAppearsIn.swift */,
+				DE90FD5B27FCFE7B0084CC79 /* CreateReviewWithNullFieldMutation.swift */,
+				DE90FD5C27FCFE7B0084CC79 /* CharacterNameAndAppearsInWithNestedFragments.swift */,
+				DE90FD5D27FCFE7B0084CC79 /* CharacterName.swift */,
+				DE90FD5E27FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDForParentOnlyQuery.swift */,
+				DE90FD5F27FCFE7B0084CC79 /* DroidNameAndPrimaryFunction.swift */,
+				DE90FD6027FCFE7B0084CC79 /* HeroDetailsWithFragmentQuery.swift */,
+				DE90FD6127FCFE7B0084CC79 /* HeroNameWithIDQuery.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		DE90FD6227FCFE7B0084CC79 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				DE90FDB627FCFED20084CC79 /* CustomScalarTypes */,
+				DE90FD6327FCFE7B0084CC79 /* Unions */,
+				DE90FD6527FCFE7B0084CC79 /* Enums */,
+				DE90FD6727FCFE7B0084CC79 /* Objects */,
+				DE90FD6F27FCFE7B0084CC79 /* Schema.swift */,
+				DE90FD7027FCFE7B0084CC79 /* InputObjects */,
+				DE90FD7227FCFE7B0084CC79 /* Interfaces */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		DE90FD6327FCFE7B0084CC79 /* Unions */ = {
+			isa = PBXGroup;
+			children = (
+				DE90FD6427FCFE7B0084CC79 /* SearchResult.swift */,
+			);
+			path = Unions;
+			sourceTree = "<group>";
+		};
+		DE90FD6527FCFE7B0084CC79 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DE90FD6627FCFE7B0084CC79 /* Episode.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		DE90FD6727FCFE7B0084CC79 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				DE90FD6827FCFE7B0084CC79 /* Query.swift */,
+				DE90FD6927FCFE7B0084CC79 /* Review.swift */,
+				DE90FD6A27FCFE7B0084CC79 /* Human.swift */,
+				DE90FD6B27FCFE7B0084CC79 /* Subscription.swift */,
+				DE90FD6C27FCFE7B0084CC79 /* Starship.swift */,
+				DE90FD6D27FCFE7B0084CC79 /* Mutation.swift */,
+				DE90FD6E27FCFE7B0084CC79 /* Droid.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		DE90FD7027FCFE7B0084CC79 /* InputObjects */ = {
+			isa = PBXGroup;
+			children = (
+				DE90FD7127FCFE7B0084CC79 /* ReviewInput.swift */,
+			);
+			path = InputObjects;
+			sourceTree = "<group>";
+		};
+		DE90FD7227FCFE7B0084CC79 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				DE90FD7327FCFE7B0084CC79 /* Character.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		DE90FDB627FCFED20084CC79 /* CustomScalarTypes */ = {
+			isa = PBXGroup;
+			children = (
+				DE90FDB727FCFEE00084CC79 /* ColorInput.swift */,
+			);
+			path = CustomScalarTypes;
 			sourceTree = "<group>";
 		};
 		DE9C04AB26EA763E00EC35E7 /* Accumulators */ = {
@@ -3618,6 +3883,73 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE90FD7F27FCFE7B0084CC79 /* HeroNameWithFragmentAndIDQuery.swift in Sources */,
+				DE90FD8527FCFE7B0084CC79 /* DroidPrimaryFunction.swift in Sources */,
+				DE90FD8727FCFE7B0084CC79 /* HeroFriendsOfFriendsNamesQuery.swift in Sources */,
+				DE90FD8927FCFE7B0084CC79 /* HeroParentTypeDependentFieldQuery.swift in Sources */,
+				DE90FDA927FCFE7B0084CC79 /* HeroNameWithIDQuery.swift in Sources */,
+				DE90FD8027FCFE7B0084CC79 /* DroidDetails.swift in Sources */,
+				DE90FD9F27FCFE7B0084CC79 /* HeroAndFriendsIDsQuery.swift in Sources */,
+				DE90FD9827FCFE7B0084CC79 /* HeroAppearsInQuery.swift in Sources */,
+				DE90FD9E27FCFE7B0084CC79 /* TwoHeroesQuery.swift in Sources */,
+				DE90FDAE27FCFE7B0084CC79 /* Human.swift in Sources */,
+				DE90FDAB27FCFE7B0084CC79 /* Episode.swift in Sources */,
+				DE90FD9527FCFE7B0084CC79 /* HeroFriendsDetailsUnconditionalAndConditionalInclusionQuery.swift in Sources */,
+				DE90FDB427FCFE7B0084CC79 /* ReviewInput.swift in Sources */,
+				DE90FDA027FCFE7B0084CC79 /* FriendsNames.swift in Sources */,
+				DE90FD8B27FCFE7B0084CC79 /* CharacterNameWithNestedAppearsInFragment.swift in Sources */,
+				DE90FD9B27FCFE7B0084CC79 /* HeroDetails.swift in Sources */,
+				DE90FD8827FCFE7B0084CC79 /* HeroDetailsQuery.swift in Sources */,
+				DE90FD9127FCFE7B0084CC79 /* HeroTypeDependentAliasedFieldQuery.swift in Sources */,
+				DE90FD7527FCFE7B0084CC79 /* HeroDetailsInlineConditionalInclusionQuery.swift in Sources */,
+				DE90FDA427FCFE7B0084CC79 /* CharacterNameAndAppearsInWithNestedFragments.swift in Sources */,
+				DE90FD9927FCFE7B0084CC79 /* HeroNameAndAppearsInQuery.swift in Sources */,
+				DE90FDB827FCFEE00084CC79 /* ColorInput.swift in Sources */,
+				DE90FD7E27FCFE7B0084CC79 /* CreateAwesomeReviewMutation.swift in Sources */,
+				DE90FD8427FCFE7B0084CC79 /* CharacterNameWithInlineFragment.swift in Sources */,
+				DE90FD8D27FCFE7B0084CC79 /* CharacterNameAndDroidPrimaryFunction.swift in Sources */,
+				DE90FD9327FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentTwiceQuery.swift in Sources */,
+				DE90FDAD27FCFE7B0084CC79 /* Review.swift in Sources */,
+				DE90FDAA27FCFE7B0084CC79 /* SearchResult.swift in Sources */,
+				DE90FD8227FCFE7B0084CC79 /* StarshipCoordinatesQuery.swift in Sources */,
+				DE90FD9227FCFE7B0084CC79 /* HeroNameConditionalInclusionQuery.swift in Sources */,
+				DE90FDA827FCFE7B0084CC79 /* HeroDetailsWithFragmentQuery.swift in Sources */,
+				DE90FD7427FCFE7B0084CC79 /* HeroNameWithFragmentQuery.swift in Sources */,
+				DE90FDA627FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDForParentOnlyQuery.swift in Sources */,
+				DE90FD8627FCFE7B0084CC79 /* ReviewAddedSubscription.swift in Sources */,
+				DE90FD7827FCFE7B0084CC79 /* CreateReviewForEpisodeMutation.swift in Sources */,
+				DE90FD9D27FCFE7B0084CC79 /* DroidDetailsWithFragmentQuery.swift in Sources */,
+				DE90FD7627FCFE7B0084CC79 /* HeroAppearsInWithFragmentQuery.swift in Sources */,
+				DE90FD9427FCFE7B0084CC79 /* HeroAndFriendsNamesWithFragmentQuery.swift in Sources */,
+				DE90FD7927FCFE7B0084CC79 /* HumanQuery.swift in Sources */,
+				DE90FD7A27FCFE7B0084CC79 /* HeroNameConditionalBothSeparateQuery.swift in Sources */,
+				DE90FD9727FCFE7B0084CC79 /* HeroNameTypeSpecificConditionalInclusionQuery.swift in Sources */,
+				DE90FDA527FCFE7B0084CC79 /* CharacterName.swift in Sources */,
+				DE90FD8127FCFE7B0084CC79 /* DroidName.swift in Sources */,
+				DE90FD9627FCFE7B0084CC79 /* HeroNameConditionalExclusionQuery.swift in Sources */,
+				DE90FD7B27FCFE7B0084CC79 /* CharacterNameAndAppearsIn.swift in Sources */,
+				DE90FD9A27FCFE7B0084CC79 /* StarshipQuery.swift in Sources */,
+				DE90FD7727FCFE7B0084CC79 /* HeroNameQuery.swift in Sources */,
+				DE90FDA327FCFE7B0084CC79 /* CreateReviewWithNullFieldMutation.swift in Sources */,
+				DE90FDA727FCFE7B0084CC79 /* DroidNameAndPrimaryFunction.swift in Sources */,
+				DE90FD7C27FCFE7B0084CC79 /* HeroDetailsFragmentConditionalInclusionQuery.swift in Sources */,
+				DE90FDAC27FCFE7B0084CC79 /* Query.swift in Sources */,
+				DE90FD8A27FCFE7B0084CC79 /* HeroAndFriendsNamesQuery.swift in Sources */,
+				DE90FDA227FCFE7B0084CC79 /* CharacterAppearsIn.swift in Sources */,
+				DE90FDA127FCFE7B0084CC79 /* HeroAndFriendsNamesWithIDsQuery.swift in Sources */,
+				DE90FDB027FCFE7B0084CC79 /* Starship.swift in Sources */,
+				DE90FD9027FCFE7B0084CC79 /* HumanHeightWithVariable.swift in Sources */,
+				DE90FD8E27FCFE7B0084CC79 /* CharacterNameAndDroidAppearsIn.swift in Sources */,
+				DE90FDAF27FCFE7B0084CC79 /* Subscription.swift in Sources */,
+				DE90FDB527FCFE7B0084CC79 /* Character.swift in Sources */,
+				DE90FDB327FCFE7B0084CC79 /* Schema.swift in Sources */,
+				DE90FD7D27FCFE7B0084CC79 /* SameHeroTwiceQuery.swift in Sources */,
+				DE90FD8F27FCFE7B0084CC79 /* HeroFriendsDetailsConditionalInclusionQuery.swift in Sources */,
+				DE90FDB127FCFE7B0084CC79 /* Mutation.swift in Sources */,
+				DE90FD8C27FCFE7B0084CC79 /* HeroNameAndAppearsInWithFragmentQuery.swift in Sources */,
+				DE90FD8327FCFE7B0084CC79 /* HeroNameConditionalBothQuery.swift in Sources */,
+				DE90FDB227FCFE7B0084CC79 /* Droid.swift in Sources */,
+				DE90FD9C27FCFE7B0084CC79 /* SearchQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
