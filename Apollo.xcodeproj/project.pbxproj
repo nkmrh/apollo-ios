@@ -1686,8 +1686,7 @@
 		9BCF0CE923FC9F060031D2A2 /* StarWarsAPI */ = {
 			isa = PBXGroup;
 			children = (
-				9BCF0CFC23FC9F060031D2A2 /* API.swift */,
-				DE2FCF4626E92EAB0057EA67 /* APIv1.swift */,
+				DE90FD2A27FCFB6E0084CC79 /* LegacyGenerated */,
 				9BCF0CF123FC9F060031D2A2 /* StarWarsAPI.h */,
 				9B20614F2591B3860020D1E0 /* graphql */,
 				9BCF0CFF23FC9F060031D2A2 /* Info.plist */,
@@ -2369,6 +2368,15 @@
 				DE90FD0C27FCC8570084CC79 /* WarmBlooded.swift */,
 			);
 			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		DE90FD2A27FCFB6E0084CC79 /* LegacyGenerated */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF0CFC23FC9F060031D2A2 /* API.swift */,
+				DE2FCF4626E92EAB0057EA67 /* APIv1.swift */,
+			);
+			path = LegacyGenerated;
 			sourceTree = "<group>";
 		};
 		DE9C04AB26EA763E00EC35E7 /* Accumulators */ = {
