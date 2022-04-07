@@ -2288,6 +2288,86 @@ class IRSelectionSet_IncludeSkip_Tests: XCTestCase {
     expect(allAnimals?[if: "a"]).to(shallowlyMatch(expected_allAnimal_ifA))
   }
 
+  func test__selections__givenNonNullFieldMergedFromNestedEntityInNamedFragmentWithIncludeCondition_createsSelections() throws {
+    // given
+    schemaSDL = """
+    type Query {
+      allAnimals: [Animal!]
+    }
+
+    type Animal {
+      child: Child!
+    }
+
+    type Child {
+      a: String!
+      b: String!
+    }
+    """
+
+    document = """
+    query TestOperation($a: Boolean!) {
+      allAnimals {
+        ...ChildFragment @include(if: $a)
+        child {
+          a
+        }
+      }
+    }
+
+    fragment ChildFragment on Animal {
+      child {
+        b
+      }
+    }
+    """
+
+    // when
+    try buildSubjectRootField()
+
+    let allAnimals = try XCTUnwrap(
+      self.subject[field: "allAnimals"] as? IR.EntityField
+    )
+
+    let allAnimals_child = try XCTUnwrap(
+      allAnimals[field: "child"] as? IR.EntityField
+    )
+
+    let Object_Child = try XCTUnwrap(schema[object: "Child"])
+    let ChildFragment = try XCTUnwrap(allAnimals[fragment: "ChildFragment"])
+
+    let expected_allAnimals_child = SelectionSetMatcher(
+      parentType: Object_Child,
+      inclusionConditions: nil,
+      directSelections: [
+        .field("a", type: .nonNull(.scalar(.string()))),
+      ],
+      mergedSelections: [],
+      mergedSources: []
+    )
+
+    let expected_allAnimals_ifA_child = try SelectionSetMatcher(
+      parentType: Object_Child,
+      inclusionConditions: nil,
+      directSelections: nil,
+      mergedSelections: [
+        .field("a", type: .nonNull(.scalar(.string()))),
+        .field("b", type: .nonNull(.scalar(.string()))),
+      ],
+      mergedSources: [
+        .mock(allAnimals),
+        .mock(for: ChildFragment.fragment[field: "child"],
+              from: ChildFragment),
+      ]
+    )
+
+    // then
+    expect(allAnimals_child.selectionSet).to(shallowlyMatch(expected_allAnimals_child))
+
+    expect(allAnimals[if: "a"]?[field: "child"]?.selectionSet)
+      .to(shallowlyMatch(expected_allAnimals_ifA_child))
+  }
+
   // MARK: - Group By Inclusion Conditions
 
   func test__groupedByInclusionConditions__groupsInclusionConditionsCorrectly() throws {

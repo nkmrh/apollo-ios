@@ -379,6 +379,11 @@ extension IR.EntitySelectionTree.EnclosingEntityNode {
     withNodeRootType nodeRootType: GraphQLCompositeType,
     using entityStorage: IR.RootFieldEntityStorage
   ) {
+    #warning(
+"""
+TODO:
+If the fragment spread has inclusion conditions, the tree should be merged in at those inclusion conditions in the root entity of the tree.
+""")
     switch otherTree.rootNode.child {
     case let .enclosingEntity(otherNextNode):
       let fragmentType = fragment.typeInfo.parentType
